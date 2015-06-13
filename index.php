@@ -575,7 +575,7 @@
                 </div>   
                 <!-- Dark Home -->
 
-                <!-- Content Central -->
+                                <!-- Content Central -->
                 <div class="container padding-top">
                     <div class="row">
                         
@@ -585,7 +585,7 @@
                             <div class="panel-box">
                             
                                 <div class="titles">
-                                    <h4>Ultimas Noticias</h4>
+                                    <h4>Recent News</h4>
                                 </div>
 
                                 <!-- Post Item -->
@@ -593,15 +593,14 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="img-hover">
-                                               <img src="img/blog/image89.jpg" alt="" class="img-responsive">
+                                               <img src="img/blog/1.jpg" alt="" class="img-responsive">
                                                <div class="overlay"><a href="single-news.html">+</a></div>
                                             </div>
                                         </div>
                                         <div class="col-md-8">
-                                            <h4><a href="single-news.html">Jovencita abandona sus estudios para dedicarse a la brujería</a></h4>
-                                            <p class="data-info">Febrero 2, 2015  / <i class="fa fa-comments"></i><a href="#">0</a></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                <a href="" class="btn btn-info">Leer Mas</a>                                           
+                                            <h4><a href="single-news.html">Porto Alegre and Cuiabá to welcome Valcke</a></h4>
+                                            <p class="data-info">January 3, 2014  / <i class="fa fa-comments"></i><a href="#">0</a></p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <a href="single-news.html">Read More [+]</a></p>                                            
                                         </div>
                                    </div>
                                 </div>
@@ -619,7 +618,7 @@
                                         <div class="col-md-8">
                                             <h4><a href="single-news.html">Porto Alegre and Cuiabá to welcome Valcke</a></h4>
                                             <p class="data-info">January 9, 2014  / <i class="fa fa-comments"></i><a href="#">5</a></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <button type="button" class="btn btn-info">Leer Más</button>                                               
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <a href="single-news.html">Read More [+]</a></p>                                            
                                         </div>
                                    </div>
                                 </div>
@@ -637,7 +636,7 @@
                                         <div class="col-md-8">
                                             <h4><a href="single-news.html">Porto Alegre and Cuiabá to welcome Valcke</a></h4>
                                             <p class="data-info">January  4, 2014  / <i class="fa fa-comments"></i><a href="#">3</a></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <button type="button" class="btn btn-info">Leer Más</button> </p>                                               
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <a href="single-news.html">Read More [+]</a></p>                                            
                                         </div>
                                    </div>
                                 </div>
@@ -655,14 +654,14 @@
                                         <div class="col-md-8">
                                             <h4><a href="single-news.html">Porto Alegre and Cuiabá to welcome Valcke</a></h4>
                                             <p class="data-info">January 8, 2014  / <i class="fa fa-comments"></i><a href="#">2</a></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <button type="button" class="btn btn-info">Leer Más</button>   </p>                                            
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum, libero id imperdiet elementum, nunc... <a href="single-news.html">Read More [+]</a></p>                                            
                                         </div>
                                    </div>
                                 </div>
                                  <!-- End Post Item -->
                             </div>  
                             <!-- End Recent Post --> 
-                                
+
                             <!-- Experts -->
                             <div class="panel-box">                            
                                 <div class="titles">
@@ -719,7 +718,7 @@
                                             <p class="date-box">Abril 15, 2014</p>
                                         </div>
                                     </div> 
-                                    <div class="col-xs-6 col-sm-3 col-md-4 col-lg-3">
+                                    <div class="col-xs-6 col-sm-8 col-md-4 col-lg-3">
                                         <div class="box-info">
                                             <img src="img/experts/1.png" alt="" class="img-responsive">
                                             <h5 class="entry-title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
@@ -733,11 +732,76 @@
                         </div>
                          <!-- End content Left -->
 
-                        <div class="container">
-                            <div class="row">
-                                
-                            </div>
-                        </div>
+                        <!-- content Sidebar Center -->
+                        <aside class="col-xs-12 col-md-6 col-lg-5">                     
+                            <!-- Locations -->
+                            <div class="panel-box">
+                            
+                                <div class="titles">
+                                    
+                                    <h4>¡Siguenos en Facebook!</h4>
+                                    
+                                </div>
+                                <!-- Locations Carousel --> 
+                                <ul class="single-carousel">    
+                                    <li>
+                                        <img src="img/blog/1.jpg" alt="" class="img-responsive">
+                                        <div class="info-single-carousel">
+                                            <h4>Rio de Janeiro</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="img/blog/2.jpg" alt="" class="img-responsive">
+                                        <div class="info-single-carousel">
+                                            <h4>Brazilia</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
+                                        </div>
+                                    </li> 
+                                    <li>
+                                        <img src="img/blog/3.jpg" alt="" class="img-responsive">
+                                        <div class="info-single-carousel">
+                                            <h4>Sao Paulo</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
+                                        </div>
+                                    </li>                                    
+                                </ul>
+                                <!-- Locations Carousel -->                                
+                            </div>  
+                            <!-- End Locations --> 
+
+                            <!-- Video presentation -->
+                            <div class="panel-box">
+                                <div class="titles">
+                                    <h4>Presentation</h4>
+                                </div>
+                                <!-- Locations Video --> 
+                                <div class="row">
+                                    <iframe src="//www.youtube.com/embed/l12OhR6nxiM" class="video"></iframe>
+                                    <div class="col-md-12">
+                                        <h4>Rio de Janeiro</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
+                                    </div>
+                                </div>
+                                <!-- End Locations Video --> 
+                            </div>  
+                            <!-- End Video presentation-->
+
+                            <!-- Widget Text-->
+                            <div class="panel-box">
+                                <div class="titles">
+                                    <h4>Widget Text</h4>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore.</p>
+                                    </div>
+                                </div>
+                            </div>  
+                            <!-- End Widget Text-->
+                        </aside>
+                        <!-- End content Sidebar Center -->
+                        
                     </div>                     
                 </div>  
                 <!-- End Content Central -->
@@ -775,7 +839,8 @@
                                         </div>
                                     </div>
                                 </form>   
-                                <div id="result-newsletter"></div>
+                                <div id="result-newsletter"></div>    
+                                                
                             </div>
                         </div>
                     </div>
@@ -958,14 +1023,7 @@
 
 
         <!-- Facebook Plugin -->
-        <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=128434693861954";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+        
         <!-- End Facebook Plugin -->
     </body>
 </html>
