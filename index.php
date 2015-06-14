@@ -734,41 +734,20 @@
 
                         <!-- content Sidebar Center -->
                         <aside class="col-xs-12 col-md-6 col-lg-5">                     
-                            <!-- Locations -->
+                            <!-- Social Networking -->
                             <div class="panel-box">
                             
-                                <div class="titles">
+                                <div class="fbtitle">
                                     
                                     <h4>¡Siguenos en Facebook!</h4>
                                     
                                 </div>
-                                <!-- Locations Carousel --> 
-                                <ul class="single-carousel">    
-                                    <li>
-                                        <img src="img/blog/1.jpg" alt="" class="img-responsive">
-                                        <div class="info-single-carousel">
-                                            <h4>Rio de Janeiro</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <img src="img/blog/2.jpg" alt="" class="img-responsive">
-                                        <div class="info-single-carousel">
-                                            <h4>Brazilia</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
-                                        </div>
-                                    </li> 
-                                    <li>
-                                        <img src="img/blog/3.jpg" alt="" class="img-responsive">
-                                        <div class="info-single-carousel">
-                                            <h4>Sao Paulo</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo cillum dolore eu fugiat nulla pariatur.</p>
-                                        </div>
-                                    </li>                                    
-                                </ul>
-                                <!-- Locations Carousel -->                                
+                                <!-- Facebook Plugin --> 
+                                <div class="fb-page" data-href="https://www.facebook.com/pages/YourLoteria/399200626909236?ref=aymt_homepage_panel" data-width="456" data-height="482" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/YourLoteria/399200626909236?ref=aymt_homepage_panel"><a href="https://www.facebook.com/pages/YourLoteria/399200626909236?ref=aymt_homepage_panel">YourLoteria</a></blockquote></div></div>
+                            
+                                <!-- End Facebook Plugin -->                                
                             </div>  
-                            <!-- End Locations --> 
+                            <!-- End Social Networking --> 
 
                             <!-- Video presentation -->
                             <div class="panel-box">
@@ -1023,7 +1002,14 @@
 
 
         <!-- Facebook Plugin -->
-        
+        <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=128434693861954";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
         <!-- End Facebook Plugin -->
     </body>
 </html>

@@ -1864,4 +1864,20 @@ address strong{
 	} 
 }
 
+
+/*<- Facebook Plugin Title ->*/
+.fbtitle
+{
+	border-bottom: #ddd 1px solid;
+	margin-bottom: 5px;
+	border-radius: 5px 5px 0 0;
+}
+
+.fbtitle > h4
+{
+	color: #222;
+	padding: 10px 10px;
+}
+
+
  
