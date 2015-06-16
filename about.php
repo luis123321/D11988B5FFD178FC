@@ -1,11 +1,3 @@
-<?php 
-
-
-
-
-
-
- ?>
 
 
 <!DOCTYPE html>
@@ -17,7 +9,7 @@
         <meta name="keywords" content="HTML5 Template" />
         <meta name="description" content="World Cup - Responsive HTML5 Template soccer and sports">
         <meta name="author" content="iwthemes.com">  
-
+        
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Theme CSS -->
@@ -26,7 +18,9 @@
         <link href="css/theme-responsive.css" rel="stylesheet" media="screen">
         <!-- Skins Theme -->
         <link href="#" rel="stylesheet" media="screen" class="skin">
-
+        <!-- Jquery UI -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <!-- Favicons -->
         <link rel="shortcut icon" href="img/icons/favicon-loterry.ico">
         <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
@@ -146,16 +140,14 @@
 
                                 <div class="content-balls">
                                     <ul class="balls-ul">
-                                        <li>
-                                            19
-                                        </li>
+                                        <li>19</li>
                                         <li>20</li>
                                         <li>80</li>
                                     </ul>
                                 </div>
 
                                 <div class="date-numbers">
-                                <p>Fecha 28-01-2015</p>
+                                <p><?php echo date("Y-m-d"); ?></p>
                             </div>
 
                                 </div>
@@ -675,6 +667,9 @@
         <script type="text/javascript" src="js/bootstrap/bootstrap.js"></script> 
         <!--MAIN FUNCTIONS-->
         <script type="text/javascript" src="js/main.js"></script>
+        <!-- LOAD -->
+        <script type="text/javascript" src="js/inc.js"></script>
+        <!-- END LOAD -->
         <!-- ======================= End JQuery libs =========================== -->
  
     </body>

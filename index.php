@@ -1,3 +1,16 @@
+<?php 
+    include 'php/conexion.php';
+    $sql = ("SELECT id,title,content FROM frontpagecontent WHERE id='1'");
+    $query = mysqli_query($dbconnect,$sql);
+    if($query){
+    $row = mysqli_fetch_row($query);
+        $id = $row[0];
+        $title = $row[1];
+        $content = $row[2];
+    };
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -85,10 +98,9 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="animated fadeInRight">
-                                        YourLoteria
+                                        <?php echo $title; ?>
                                     </h1>   
-                                    <p class="animated fadeInRight delay1">YourLoteria.com , la nueva pagina web para que estes al tanto de todo lo que mas te gusta
-                                        las apuestas <strong>"Dominicanas e Internacionales"</strong></p> 
+                                    <p class="animated fadeInRight delay1"><?php echo $content; ?></strong></p> 
                                     <div class="more animated fadeInRight delay2">
                                         <a href="#" class="btn btn-primary" name="subscribe" >Mas Informacíon</a>
                                     </div>
