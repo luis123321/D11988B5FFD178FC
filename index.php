@@ -1,8 +1,7 @@
 <?php 
     include 'php/conexion.php';
     include 'php/reader.php';
-
- ?>
+ ?> 
 
 <!DOCTYPE html>
 <html lang="en">

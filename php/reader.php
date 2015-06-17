@@ -1,6 +1,6 @@
 <?php 
 
- mysqli_set_charset($dbconnect,'utf8');
+ 	mysqli_set_charset($dbconnect,'utf8');
     $sql = ("SELECT id,title,content FROM frontpagecontent WHERE id='1'");
     $query = mysqli_query($dbconnect,$sql);
     if($query){
