@@ -1,6 +1,10 @@
 <?php 
     include 'php/conexion.php';
     include 'php/reader.php';
+    include 'php/frontpagecontent.php';
+
+
+    
  ?> 
 
 <!DOCTYPE html>
@@ -90,9 +94,9 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="animated fadeInRight">
-                                        <?php echo $title; ?>
+                                        <?php echo $titlea; ?>
                                     </h1>   
-                                    <p class="animated fadeInRight delay1"><?php echo $content; ?></strong></p> 
+                                    <p class="animated fadeInRight delay1"><?php echo $contenta; ?></strong></p> 
                                     <div class="more animated fadeInRight delay2">
                                         <a href="#" class="btn btn-primary" name="subscribe" >Mas Informacíon</a>
                                     </div>
@@ -111,9 +115,9 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="animated fadeInRight">
-                                         Dominique Daniels Returns
+                                         <?php echo $titleb ?>
                                     </h1>   
-                                    <p class="animated fadeInRight delay1">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
+                                    <p class="animated fadeInRight delay1"><?php echo $contentb ?></p> 
                                     <div class="more animated fadeInRight delay2">
                                         <a href="#" class="btn btn-primary" name="subscribe" >More Info</a>
                                     </div>
@@ -132,9 +136,9 @@
                             <div class="row">
                                 <div class="col-md-7">
                                     <h1 class="animated fadeInRight">
-                                        Spiranovic Wanderers deal
+                                        <?php echo $titlec; ?>
                                     </h1>   
-                                    <p class="animated fadeInRight delay1">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p> 
+                                    <p class="animated fadeInRight delay1"><?php echo $contentc; ?></p> 
                                     <div class="more animated fadeInRight delay2">
                                         <a href="#" class="btn btn-primary" name="subscribe" >More Info</a>
                                     </div>
