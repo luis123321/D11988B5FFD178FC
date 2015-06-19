@@ -2,7 +2,7 @@
     include 'php/conexion.php';
     include 'php/reader.php';
     include 'php/frontpagecontent.php';
-
+    mysqli_set_charset($dbconnect,'utf8');
 
     
  ?> 

@@ -95,7 +95,7 @@
                                 </div> 
                             </li>
                             <li class="current">
-                                <a href="#">Features</a>
+                                <a href="#">Canjear</a>
                                 <ul class="sub-current"> 
                                     <li class="current">
                                         <a href="#">Pages</a>
