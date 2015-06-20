@@ -3,7 +3,7 @@
     include 'php/reader.php';
     include 'php/frontpagecontent.php';
     mysqli_set_charset($dbconnect,'utf8');
-
+    
     
  ?> 
 
@@ -529,7 +529,7 @@
                                     </p>
 
                                     <div class="contenedor">
-                                       Lotería Nacional <div id="po">(noche)</div>
+                                       Gana Mas
                                    </div>
                                         <div class="new-t"></div> 
 

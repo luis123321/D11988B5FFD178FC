@@ -95,7 +95,7 @@
                                 </div> 
                             </li>
                             <li class="current">
-                                <a href="#">Canjear</a>
+                                <a href="canjear.php">Canjear</a>
                                 <ul class="sub-current"> 
                                     <li class="current">
                                         <a href="#">Pages</a>
